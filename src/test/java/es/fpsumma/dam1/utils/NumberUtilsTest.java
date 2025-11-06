@@ -33,5 +33,8 @@ public class NumberUtilsTest {
 
     @test
 
-    public void 
+    public void maxOk(){
+        int resultado = NumberUtils.max(5, 10);
+        assertEquals(10, resultado);
+    }
 }
